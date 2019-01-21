@@ -12,3 +12,12 @@ number this will actvate your dev DLL you will need to also know how we load the
 ```Lua
 __DevDLLLoad = package.loadlib("kOnLibDev.dll", "kOnOpen_Dev");
 ```
+
+This is left over code from the Kingfisheranime days, the new version will have a different dll ext it will not use **.dll** it will use **.imod** and will use **iMod_load** as it's entry point rather then **kOnOpen_Dev**
+
+## Code
+```Lua
+ __iModLoader = package.loadlib("iModConnection.imod", "iMod_load");
+```
+
+Also right now the Dev Mod loads two loads and loads the GUI already this will also be changed in the future.
