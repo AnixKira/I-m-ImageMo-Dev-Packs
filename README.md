@@ -20,4 +20,4 @@ This is left over code from the Kingfisheranime days, the new version will have 
  __iModLoader = package.loadlib("iModConnection.imod", "iMod_load");
 ```
 
-Also right now the Dev Mod loads two loads and loads the GUI already this will also be changed in the future.
+Also right now the Dev Mod loads two late and loads the GUI before the options are set, this will also be changed in the future.
