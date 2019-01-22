@@ -1,0 +1,3 @@
+------- This is a blank naked_imodconnection_imod.lua
+------- so you are able to test your mod ideas in the
+------- app before you complie the code in to a dll
